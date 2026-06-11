@@ -4,9 +4,6 @@ description = "My YouTube channel where I share software engineering content."
 date = 2025-02-25
 slug = "youtube-channel"
 
-[taxonomies]
-tags = ["Other"]
-
 [extra]
 display_published = true
 +++

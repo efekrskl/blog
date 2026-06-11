@@ -4,9 +4,6 @@ description = "A realtime multiplayer game with the objective to conquer the wor
 date = 2025-07-04
 slug = "geowar-io"
 
-[taxonomies]
-tags = ["Projects"]
-
 [extra]
 display_published = true
 +++

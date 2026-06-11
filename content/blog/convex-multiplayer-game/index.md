@@ -5,7 +5,7 @@ date = 2025-07-28
 slug = "convex-multiplayer-game"
 
 [taxonomies]
-tags = ["Projects"]
+tags = ["Software Engineering"]
 
 [extra]
 display_published = true

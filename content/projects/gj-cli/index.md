@@ -4,9 +4,6 @@ description = "gj is a dead simple journaling CLI. Directly from the terminal to
 date = 2025-04-10
 slug = "gj-cli"
 
-[taxonomies]
-tags = ["Projects"]
-
 [extra]
 display_published = true
 +++

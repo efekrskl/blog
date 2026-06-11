@@ -15,7 +15,7 @@ Traveling is easily one of my top hobbies.
 Visiting new countries, experiencing diverse cultures, interacting with locals, and learning about their ways of life broadens my perspective immensely.
 There are many countries I hope to visit in the future, and I aim to check off more destinations each year. In the future, I'm also going to share my experiences through blog posts.
 
-Below you can see an iframe from [ferne.io](https://ferne.efe.dev). I've built ferne, so I could keep track of the countries I've visited. [Here's](/things/ferne-io) more about the project.
+Below you can see an iframe from [ferne.io](https://ferne.efe.dev). I've built ferne, so I could keep track of the countries I've visited. [Here's](/projects/ferne-io) more about the project.
 
 <div style="width: 100%; height: 650px;">
   <iframe

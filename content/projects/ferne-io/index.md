@@ -4,9 +4,6 @@ description = "Mark your travels on a world map, share your profile, collect ach
 date = 2025-01-04
 slug = "ferne-io"
 
-[taxonomies]
-tags = ["Projects"]
-
 [extra]
 display_published = true
 +++

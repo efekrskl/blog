@@ -45,5 +45,6 @@ header_nav = [
   { url = "/", name_en = "/home/" },
   { url = "/rss.xml", name_en = "/rss/" },
 ##  { url = "/journal", name_en = "/journal/" },
-  { url = "/blog", name_en = "/blog/" }
+  { url = "/blog", name_en = "/blog/" },
+  { url = "/projects", name_en = "/projects/" }
 ]

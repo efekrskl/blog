@@ -22,7 +22,7 @@ modern web apps. I built <a href="./convex-multiplayer-game">
     a small multiplayer online game
 </a> with it and was really impressed by the developer experience.
 
-Since then, I’ve been advocating for Convex as a fan: <a href='../things/convex-multiplayer-game-talk'>I gave two community talks about it</a>, <a href='https://youtu.be/m72lrbINkak'>published a YouTube tutorial</a>, did some docs improvements in their repo (<a href='https://github.com/get-convex/convex-backend/pull/133'>1</a>, <a href='https://github.com/get-convex/convex-backend/pull/124'>2</a>), and <a href='https://github.com/get-convex/convex-backend/pull/165'>even fixed a self-hosting bug</a>.
+Since then, I’ve been advocating for Convex as a fan: <a href='../convex-multiplayer-game-talk'>I gave two community talks about it</a>, <a href='https://youtu.be/m72lrbINkak'>published a YouTube tutorial</a>, did some docs improvements in their repo (<a href='https://github.com/get-convex/convex-backend/pull/133'>1</a>, <a href='https://github.com/get-convex/convex-backend/pull/124'>2</a>), and <a href='https://github.com/get-convex/convex-backend/pull/165'>even fixed a self-hosting bug</a>.
 
 So when they reached out to me about this program, my immediate thought was: I’ve already been advocating for Convex. Why not do it as a Champion?
 
