@@ -1,0 +1,93 @@
+:root {
+  --bg: #23201b;
+  --bg-soft: #2a2621;
+  --bg-elevated: #312c26;
+  --border: #f2a365;
+  --text: #f3efe6;
+  --text-dim: #b8b0a2;
+  --text-muted: #8c8478;
+  --accent: #f2a365;
+  --accent-soft: #e7b27d;
+  --accent-alt: #ffd29d;
+}
+
+html[data-theme="light"] {
+  --bg: #f5ecdf;
+  --bg-soft: #eadcc8;
+  --bg-elevated: #dfcfb7;
+  --border: #b86d2f;
+  --text: #2f2418;
+  --text-dim: #5a4837;
+  --text-muted: #7a6652;
+  --accent: #b86d2f;
+  --accent-soft: #9e5c26;
+  --accent-alt: #8d4d17;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+a,
+.content-link,
+#nav-bar a,
+.accent-data,
+.footnote-definition-label {
+  color: var(--accent);
+}
+
+a:hover,
+.content-link:hover,
+#nav-bar a:hover,
+#nav-bar a.active {
+  color: var(--accent-alt);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time,
+.content-meta,
+small,
+footer {
+  color: var(--text-dim);
+}
+
+hr,
+blockquote,
+pre,
+table,
+th,
+td {
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+blockquote,
+code {
+  background: color-mix(in srgb, var(--accent) 8%, var(--bg));
+}
+
+code {
+  color: var(--accent-alt);
+}
+
+pre {
+  background: color-mix(in srgb, black 18%, var(--bg));
+}
+
+.tag {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--bg));
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.tag:hover {
+  color: var(--bg);
+  background: var(--accent);
+  border-color: var(--accent);
+}

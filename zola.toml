@@ -11,6 +11,8 @@ theme = "anemone"
 
 generate_feeds = true
 
+feed_filenames = ["rss.xml"]
+
 taxonomies = [
     {name = "tags", feed = true, paginate_by = 10},
 ]
@@ -41,7 +43,7 @@ enable_search = true
 ## Navigation
 header_nav = [
   { url = "/", name_en = "/home/" },
-##  { url = "/about", name_en = "/about/" },
+  { url = "/rss.xml", name_en = "/rss/" },
 ##  { url = "/journal", name_en = "/journal/" },
   { url = "/blog", name_en = "/blog/" }
 ]
