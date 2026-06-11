@@ -5,4 +5,11 @@
     <a href="{{ page.permalink }}" class="content-link">
         {{ page.title }}
     </a>
+    {% if page.taxonomies.tags %}
+    <span class="listing-tags-inline">
+        {% for tag in page.taxonomies.tags %}
+        <a href="/tags/{{ tag | slugify }}" class="tag">#{{ tag }}</a>
+        {% endfor %}
+    </span>
+    {% endif %}
 </li>

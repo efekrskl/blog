@@ -1,5 +1,5 @@
 +++
-title = "Building a Multiplayer Game with Convex Over a Weekend"
+title = "Convex 101 by Building a Multiplayer Game"
 description = "A talk on Convex and how I built a multiplayer game with it over a weekend."
 date = 2025-08-05
 slug = "convex-multiplayer-game-talk"
@@ -20,6 +20,6 @@ display_published = true
   ></iframe>
 </div>
 
-I gave this talk in Munich, Germany at the [Munich Typescript Meetup: Community Edition](https://www.meetup.com/munich-typescript-meetup/events/308962810).
+I gave this talk in Munich, Germany at the [Munich Typescript Meetup: Community Edition](https://www.meetup.com/munich-typescript-meetup/events/308962810) and at [Munich TypeScript: Fullstack Apps Without the Drama](https://www.meetup.com/munich-typescript-meetup/events/313511838/).
 I shared my experience building my small multiplayer game [GeoWar.io](https://geowar.io) using [Convex](https://convex.dev) over a weekend.
 It was an incredible experience speaking in front of tens of people.

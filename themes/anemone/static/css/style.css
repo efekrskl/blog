@@ -40,6 +40,16 @@
   margin-bottom: .375rem;
 }
 
+.listing-tags-inline {
+  display: inline;
+  margin-left: .35rem;
+  white-space: nowrap;
+}
+
+.listing-tags-inline .tag + .tag {
+  margin-left: .25rem;
+}
+
 
 /* icons settings */
 .icon {

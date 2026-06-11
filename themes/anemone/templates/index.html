@@ -3,6 +3,17 @@
 {% block content %}
     {{ section.content | safe }}
 
+    {% set blog_section = get_section(path="blog/_index.md", metadata_only=false) %}
+    <br>
+    {% if blog_section.pages %}
+    <h2>Recent posts</h2>
+    <ul class="content-list">
+        {% for page in blog_section.pages | slice(end=3) %}
+            {% include "partials/content-listing-item.html" %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     {% if config.extra.list_pages %}
     <ul class="posts">
         {% for page in section.pages %}
