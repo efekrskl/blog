@@ -11,8 +11,6 @@ tags = ["Software Engineering"]
 display_published = true
 +++
 
-### A Better Way to Load Prompts, SQL & Markdown in Node.js
-
 Node.js just shipped `--experimental-import-text`, which lets you import text files directly as strings. 
 That means loading `.txt`, `.sql`, `.html`, Markdown, or LLM prompt files becomes much cleaner.
 

@@ -13,8 +13,6 @@ display_published = true
 
 ![Convex](./cover.jpeg)
 
-### I'm now a Convex Champion
-
 I just became a Convex Champion, and I'm pretty stoked about it.
 
 <a href="https://www.convex.dev/">Convex</a> is a reactive database for building
