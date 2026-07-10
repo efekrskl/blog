@@ -19,9 +19,9 @@ That means loading `.txt`, `.sql`, `.html`, Markdown, or LLM prompt files become
 Deno and Bun have supported similar functionality for a while, and I'm glad to see Node.js moving in the same direction. 
 Having similar capabilities across JavaScript runtimes makes it easier to write portable code, which I think is very critical for JavaScript's future.
 
-You can read more about the TC39 proposal here: https://github.com/tc39/proposal-import-text
+You can read more about the TC39 proposal here: [https://github.com/tc39/proposal-import-text](https://github.com/tc39/proposal-import-text)
 
-Or check out the Node.js implementation: https://github.com/nodejs/node/pull/62300
+Or check out the Node.js implementation: [https://github.com/nodejs/node/pull/62300](https://github.com/nodejs/node/pull/62300)
 
 How to use it you say?
 ```js
