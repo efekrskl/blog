@@ -71,10 +71,20 @@ I don't have this particular model or brand, but mine is very similar
 
 A pull up bar is a must for decent back workouts. 
 
+- [Indian Clubbell(s)](https://www.amazon.de/-/en/Gorilla-Sports-Weight-clubbell-Compact/dp/B008AUB9DO/)
+
+Indian clubbells are weighted clubs, mainly used for rotational movements.
+
+Clubbells are my current exercises. 
+I think they complement the gym training very well by adding some unorthodox movements to your workouts.
+Ever since I started training with it, I feel my shoulder mobility improved a lot.
+Unfortunately, I only have a single clubbell of 4 kilograms though.
+I'm currently eyeing some adjustable clubbells, or simply buying a few more as they don't require much space anyway.
+
+- [Resistance Bands](https://www.amazon.de/-/en/Fokky-Resistance-Instructions-Stretching-Calisthenics/dp/B0G6Z16B9Q/)
+
+I don't have this particular set of resistance bands, but mine are quite similar.
+
 // todo 
-
-// resistance bands
-
-// indian club bell
 
 // treadmill
