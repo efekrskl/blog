@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://efe.dev"
+base_url = "https://www.efe.dev"
 
 title = "Efe Karasakal's Blog"
 

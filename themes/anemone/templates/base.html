@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="{% if page %}{{ page.lang }}{% else %}{{ config.default_language }}{% endif %}">
     <head>
+        {% if page %}
+            {% set canonical_url = page.permalink %}
+        {% elif section %}
+            {% set canonical_url = section.permalink %}
+        {% else %}
+            {% set canonical_url = config.base_url %}
+        {% endif %}
+        {% set is_home = section and section.title == "Homepage" %}
+        {% set meta_title = config.title %}
+        {% if page and page.title %}
+            {% set meta_title = config.title ~ " | " ~ page.title %}
+        {% elif section and section.title and not is_home %}
+            {% set meta_title = config.title ~ " | " ~ section.title %}
+        {% endif %}
+        {% if page and page.description %}
+            {% set meta_description = page.description %}
+        {% elif section and section.description %}
+            {% set meta_description = section.description %}
+        {% else %}
+            {% set meta_description = config.description %}
+        {% endif %}
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index, follow">
         {% block rss %}
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
         {% endblock %}
-        <title>{{ config.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+        {% block seo %}
+        <title>{{ meta_title }}</title>
+        <meta name="description" content="{{ meta_description }}">
+        <link rel="canonical" href="{{ canonical_url | safe }}">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ canonical_url | safe }}">
+        <meta property="og:title" content="{{ meta_title }}">
+        <meta property="og:description" content="{{ meta_description }}">
+        {% endblock seo %}
 
         <link rel="preload" href="{{ get_url(path='css/style.css') }}" as="style">
         <link rel="stylesheet" href="https://raw.githack.com/Speyll/suCSS/main/reset-min.css" crossorigin="anonymous">

@@ -1,6 +1,6 @@
 +++
 title = "Homepage"
-description = "Efe Karasakal - efe.dev"
+description = "Software engineer in Munich writing about software engineering, projects, travel, and personal interests."
 +++
 
 Hi 👋 I'm Efe Karasakal, a software engineer based in Munich, Germany.

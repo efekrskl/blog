@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% set root = get_section(path="_index.md") %}
+    <url>
+        <loc>{{ root.permalink | safe }}</loc>
+    </url>
+    {% for subsection in root.subsections %}
+        {% set sub = get_section(path=subsection) %}
+        <url>
+            <loc>{{ sub.permalink | safe }}</loc>
+        </url>
+    {% endfor %}
+
+    {% set tags = get_taxonomy(kind="tags") %}
+    <url>
+        <loc>{{ tags.permalink | safe }}</loc>
+    </url>
+    {% for term in tags.items %}
+        <url>
+            <loc>{{ term.permalink | safe }}</loc>
+        </url>
+    {% endfor %}
+
     {% for page in root.pages %}
         <url>
             <loc>{{ page.permalink | safe }}</loc>
             {% if page.date %}<lastmod>{{ page.date | date(format="%Y-%m-%d") }}</lastmod>{% endif %}
         </url>
     {% endfor %}
-    
+
     {% for subsection in root.subsections %}
         {% set sub = get_section(path=subsection) %}
         {% for page in sub.pages %}

@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block seo %}
+<title>{{ config.title }} | Tag: {{ term.name }}</title>
+<meta name="description" content="Posts tagged {{ term.name }} on {{ config.title }}.">
+<link rel="canonical" href="{{ term.permalink }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ term.permalink }}">
+<meta property="og:title" content="{{ config.title }} | Tag: {{ term.name }}">
+<meta property="og:description" content="Posts tagged {{ term.name }} on {{ config.title }}.">
+{% endblock seo %}
+
 {% block content %}
 <h1>Posts tagged: {{ term.name }}</h1>
 <ul>

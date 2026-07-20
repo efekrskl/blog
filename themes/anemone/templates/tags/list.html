@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block seo %}
+<title>{{ config.title }} | Tags</title>
+<meta name="description" content="Browse all tags used on {{ config.title }}.">
+<link rel="canonical" href="{{ config.base_url }}/tags/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ config.base_url }}/tags/">
+<meta property="og:title" content="{{ config.title }} | Tags">
+<meta property="og:description" content="Browse all tags used on {{ config.title }}.">
+{% endblock seo %}
+
 {% block content %}
 <h1>All Tags</h1>
 <ul>
